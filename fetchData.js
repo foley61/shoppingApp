@@ -62,11 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
         addCategoryBtns(categories);
       } else {
         console.error("Failed to fetch products:", response.statusText);
-        // Kategorilerin arrayine All diye bir sınıf ekliyoruz
-
-        // bu kategorilere göre butonları oluşturacak fonksiyonu çağırıyoruz
-
-        // kategoriye göre ürünleri html e basan fonksiyonu çağırıyoruz
+    
       }
     } catch (error) {
       console.error("Error:", error);
